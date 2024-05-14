@@ -372,7 +372,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #24262a;
+	background-color: #0000;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -427,9 +427,10 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	font-size: 1.2rem;
 }
 
 .navbar .nav-item.dropdown.show .nav-link,
@@ -485,7 +486,7 @@ input[type='checkbox'] {
 /* end of dropdown menu */
 
 .navbar .fa-stack {
-	width: 2em;
+	width: 2rem;
 	margin-right: 0.25rem;
 	font-size: 0.75rem;
 }
@@ -509,6 +510,7 @@ input[type='checkbox'] {
 }
 
 .navbar .navbar-toggler {
+	background: #000;
 	padding: 0;
 	border: none;
 	font-size: 1.25rem;
@@ -519,9 +521,10 @@ input[type='checkbox'] {
 /*     Header     */
 /******************/
 .header {
+	margin-top: 7rem;
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/portobgp.jpeg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -620,7 +623,7 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/detail-bg.jpeg') center center no-repeat;
 	background-size: cover;
 }
 
